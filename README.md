@@ -117,6 +117,18 @@ COPY ./main.py /app/main.py
 # Set entrypoint
 ENTRYPOINT ["python", "-m", "main"]
 ```
+dcoker-compose.yml
+```text
+version: "3.9"
+services:
+  melio_predict:
+    container_name: dyu_fr
+    image: dyula_fr_translation_2:0.01
+    command: --model_name=model
+    working_dir: /app
+    ports:
+      - "80:8080"   
+```
 main.py file with inference can be found below
 
 # Submission Zip File
