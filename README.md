@@ -133,3 +133,5 @@ main.py file with inference can be found below
 
 # Submission Zip File
 Find full submission zipfile [here](https://drive.google.com/file/d/1-o9tSUPh4mUqHqouj8nIC_Ts_wlD6MWc/view?usp=drive_link)
+
+[Saved Model Files](https://drive.google.com/drive/folders/1-oUEfVMv_mE65zPU0T1J3rDJ3xMsnOYj?usp=drive_link)
