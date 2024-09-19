@@ -66,7 +66,7 @@ The training data was cleaned, duplicates removed and resplit. The train data fo
 # Training Details
 
 Training details and config specifics can be found in this [Colab Notebook](https://drive.google.com/file/d/1uFUCEc5m6yI_ya6IVis6ProN0V3ubj5X/view?usp=sharing)
-Training was done with the following dependencies using kaggle notebook using T4 x 2. Trainining time was approximately 3 hours.
+Training was done with the following dependencies using kaggle notebook on T4 x 2 GPUs. Trainining time was approximately 3 hours.
 Training Requirements:
 
 ```
@@ -83,7 +83,7 @@ Note that the old tensorflow/cuda depedency can be difficult to obtain. The Kagg
 
 # Limitations and Risks
 
-The trainining dataset is not enough to provide useful translation, training should be extended as more translation data becomes available.
+The trainining dataset is not enough to provide very useful translation, training should be extended as more translation data becomes available.
 
 # Performance
 Validation Bleu Score: 5.04%
@@ -120,4 +120,4 @@ ENTRYPOINT ["python", "-m", "main"]
 main.py file with inference can be found below
 
 # Submission Zip File
-Find full submission zipfile [here](find full submission zip file)
+Find full submission zipfile [here](https://drive.google.com/file/d/1-o9tSUPh4mUqHqouj8nIC_Ts_wlD6MWc/view?usp=drive_link)
