@@ -85,9 +85,6 @@ Note that the old tensorflow/cuda depedency can be difficult to obtain. The Kagg
 
 The trainining dataset is not enough to provide very useful translation, training should be extended as more translation data becomes available.
 
-# Performance
-Validation Bleu Score: 5.04%
-
 # HighWind Deployment
 
 For deployment to HighWind, place the folder produced from training "saved_model" in the same path as the Dockerfile and the requirements.txt provided. 
